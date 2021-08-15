@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/urfave/cli/v2"
-	"github.com/yangl-ai/goctl-export/action"
+	"github.com/yangl-ai/goctl-postman/action"
 	"os"
 	"runtime"
 )
@@ -12,7 +12,7 @@ var (
 	version  = ""
 	commands = []*cli.Command{
 		{
-			Name:   "doc-export",
+			Name:   "postman",
 			Usage:  "generates swagger.json",
 			Action: action.Generator,
 			Flags: []cli.Flag{
