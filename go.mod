@@ -1,4 +1,4 @@
-module github.com/yangl-ai/goctl-export
+module github.com/yangl-ai/goctl-postman
 
 go 1.15
 
